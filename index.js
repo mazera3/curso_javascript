@@ -1,8 +1,1 @@
-function resetCor() {
-    document.getElementById("cor").style.backgroundColor = "blue";
-}
-
-function resetCorFundo() {
-    document.getElementsByTagName("body")[0].style.backgroundColor = "yellow";
-}
-
+// Aula37 - Montador de endereço (3:10:07)

@@ -10,19 +10,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     -->
-    
+
     <title>Curso javascript</title>
     <script src="./../index.js"></script>
+    <script type="text/javascript">
+        function resetCor() {
+            document.getElementById("cor").style.backgroundColor = "blue";
+        }
+        function resetCorFundo() {
+            document.getElementsByTagName("body")[0].style.backgroundColor = "yellow";
+        }
+    </script>
 </head>
 
 <body>
     <div class="container mt-5" style="background-color: aquamarine">
-        <h1 id="cor">Curso JavaScript</h1>
-        <img src="./índice.jpeg"><br/><br/>
-        <a href="https://www.youtube.com/watch?v=i6Oi-YtXnAU" target="_blank"><h3>Canal YouTube</h3></a><br/><br/>
-        <p>Nesse Curso Javascript 2020 estarei te ensinando todas as habilidades essenciais para começar a pensar como um programador e desenvolver sua lógica de programação.</p>
-        <button onclick="resetCorFundo()" class="ml-3">Alterar cor de fundo</button><button onclick="resetCor()">Alterar Cor do texto</button><br/><br/>
-        <button onclick="getElementById('conteudo').innerHTML = 'Esse curso javascript iniciante é tanto para pessoas que nunca programaram antes e este curso de javascript completo gratis foi criado para você, que já sabe outra linguagem.O Javascript hoje está entre as top 10 linguagens mais usadas no mundo.'">Descrição</button><br/><br/>
+        <h1 id="cor">&#127463;&#127479;Curso JavaScript</h1>
+        <img src="./índice.jpeg"><br /><br />
+        <a href="https://www.youtube.com/watch?v=i6Oi-YtXnAU" target="_blank">
+            <h3>Canal YouTube</h3>
+        </a><br /><br />
+        <p>Nesse Curso Javascript 2020 estarei te ensinando todas as habilidades essenciais para começar a pensar como
+            um programador e desenvolver sua lógica de programação.</p>
+        <button onclick="resetCorFundo()" class="ml-3">Alterar cor de fundo</button><button onclick="resetCor()">Alterar
+            Cor do texto</button><br /><br />
+        <button
+            onclick="getElementById('conteudo').innerHTML = 'Esse curso javascript iniciante é tanto para pessoas que nunca programaram antes e este curso de javascript completo gratis foi criado para você, que já sabe outra linguagem.O Javascript hoje está entre as top 10 linguagens mais usadas no mundo.'">Descrição</button><br /><br />
         <p id="conteudo"></p>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS 
